@@ -4,3 +4,5 @@
 - To run, need to have [uv](https://docs.astral.sh/uv/) and a relatively recent Python version installed.
 - Then should be able to run `uv run marimo edit notebooks/init_study.py`.
 
+- Can see the notebook (but not interact with it) at this [https://static.marimo.app/static/sercsurvey-8fz5](https://static.marimo.app/static/sercsurvey-8fz5).
+
