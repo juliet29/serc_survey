@@ -1,0 +1,23 @@
+[project]
+name = "surveys"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Juliet Nwagwu Ume-Ezeoke", email = "jnwagwu@stanford.edu" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "altair>=6.0.0",
+    "ipython>=9.7.0",
+    "marimo>=0.18.1",
+    "polars>=1.35.2",
+    "ptpython>=3.0.32",
+]
+
+[project.scripts]
+surveys = "surveys:main"
+
+[build-system]
+requires = ["uv_build>=0.8.3,<0.9.0"]
+build-backend = "uv_build"
